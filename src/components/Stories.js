@@ -1,7 +1,7 @@
 import Story from "./Story"
 
 export default function Stories() {
-    const list = getPosts();
+    const list = getStories();
 
     return (
         <div class="stories">
@@ -15,7 +15,7 @@ export default function Stories() {
     )
 }
 
-function getPosts() {
+function getStories() {
     const list = [
         { imagem: "./assets/img/9gag.svg", usuario: "9gag" },
         { imagem: "./assets/img/meowed.svg", usuario: "meowed" },

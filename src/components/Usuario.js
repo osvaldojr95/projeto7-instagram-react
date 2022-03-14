@@ -1,4 +1,4 @@
-export default function Titulo(props) {
+export default function Usuario(props) {
     const { imagem, usuario, nome } = props;
 
     return (
